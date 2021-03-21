@@ -1,0 +1,115 @@
+
+body {}
+
+
+h1{
+	text-align: center;
+	background-color: bisque;
+	font-size: larger;
+	color: coral;
+}
+
+
+.top-menu {
+	text-align: center;
+	margin: 20px;
+}
+.top-menu a {
+	
+}
+
+.sub-menu {
+	margin: 20px;
+	background-color: bisque;
+	text-align: center;
+}
+.sub-menu a {
+	
+}
+
+
+#content {
+	margin: 20px;
+	text-align: center;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');
+
+html, body{overflow-x: hidden;
+	text-align: center;
+}
+body{overflow: hidden; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 14px; line-height: 40px;	font-weight: 400; letter-spacing: 0.5px;}
+
+.vertical-aling-middle{vertical-align: middle !important;}
+.color-light-grey{color: #c0bcc2;}
+.color-black{color: #000;}
+.color-white{color: #fff;}
+
+/*========Background color==========*/
+.bg-black{background-color: rgb(89, 203, 238);}
+
+/* ===============width============= */
+.width-100{	width: 100%!important;}
+
+/* ==========Text position========= */
+.text-center{text-align: center!important;}
+
+/* users  */
+.users {
+
+}
+.users table {
+
+}
+.users table {
+	text-align: center;
+}
+.styled-table{
+	text-align: center;
+}
+
+table {
+    margin: 0 auto;            
+}​
+.styled-table thead tr {
+    background-color: #009879;
+    color:#a91111;
+    text-align: center;
+}
+
+th{
+	color:darkred;
+}
+
+td, th {
+    border: 1px solid #999;
+	text-align: center;  
+    padding: 0.5rem;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+	text-align: center;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+	
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+	
+    color: #009879;
+}
+
+
+
+
+
+

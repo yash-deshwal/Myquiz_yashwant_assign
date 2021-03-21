@@ -1,0 +1,3 @@
+/*C3*/SET SCHEMA PUBLIC
+alter table my_quiz_questions drop constraint UK_3t7dl1q5gk4m8emqpr2rtygd0
+alter table my_quiz_questions add constraint UK_3t7dl1q5gk4m8emqpr2rtygd0 unique (questions_id)
